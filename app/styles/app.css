@@ -1,12 +1,12 @@
 :root {
-    --bright-yellow:#ffda00;
-    --navitem-link-color:var(--bright-yellow);
+    --bright-yellow: #ffda00;
+    --navitem-link-color: var(--bright-yellow);
 }
 
 .rr-navbar {
     position: relative;
     min-height: 50px;
-    border: 1px solid ransparent;
+    border: 1px solid transparent;
 }
 
 .rr-navbar > .rr-nav {
@@ -21,7 +21,7 @@
 }
 
 .rr-navbar-item > a:hover {
-    border-bottom:2pxsolidvar(--navitem-link-color);
+    border-bottom: 2px solid var(--navitem-link-color);
 }
 
 .rr-navbar-item > a:active {
