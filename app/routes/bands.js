@@ -12,7 +12,7 @@ const Song = EmberObject.extend({
   band:''
 });
 
-export default class BandsRoute extends Route {
+export default Route.extend({
     model() {
       let blackDog = Song.create({
         title: 'Black Dog',
@@ -58,4 +58,4 @@ export default class BandsRoute extends Route {
 
       return A([ledZeppelin, pearlJam, fooFighters]);
     }
-}
+});
