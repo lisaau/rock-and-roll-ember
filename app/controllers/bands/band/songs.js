@@ -19,8 +19,8 @@ export default Controller.extend({
 
   saveSong: action(function(event) {
     event.preventDefault();
-    let newSong = Song.create({ title:this.newSongTitle });
+    let newSong = Song.create({ title: this.newSongTitle });
     this.model.songs.pushObject(newSong);
-    this.set('newSongTitle','');
+    this.set('newSongTitle', '');
   })
 });
