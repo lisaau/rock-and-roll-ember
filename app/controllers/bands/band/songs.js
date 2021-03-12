@@ -22,5 +22,10 @@ export default Controller.extend({
     let newSong = Song.create({ title: this.newSongTitle });
     this.model.songs.pushObject(newSong);
     this.set('newSongTitle', '');
+  }),
+
+  updateRating: action(function(params) {
+    let {item: song, rating } = params;
+    song.set('rating', rating);
   })
 });
