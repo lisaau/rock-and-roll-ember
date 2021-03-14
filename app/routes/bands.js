@@ -38,7 +38,8 @@ export default Route.extend({
       let pearlJam = Band.create({
         name: 'Pearl Jam',
         slug: 'pearl-jam',
-        songs: A([yellowLedbetter, daughter])
+        songs: A([yellowLedbetter, daughter]),
+        description: 'Pearl Jam is an American rock band, formed inSeattle, Washington in 1990.',
       });
       
       let fooFighters = Band.create({
