@@ -8,7 +8,7 @@ export default Route.extend({
   resetController(controller) {
     controller.setProperties({
       isAddingSong: false,
-      newSongTitle:''
+      newSongTitle: ''
     });
   },
 });
